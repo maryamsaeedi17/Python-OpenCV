@@ -1,6 +1,13 @@
 # Python-OpenCV
 OpenCV for Python
 
+--------------------------------------
+
+
+
+# Image Proccenig using OpenCV
+
+
 -----------------------------
 
 ## 1- Chess board 
@@ -34,3 +41,11 @@ after:
 ![gradient](gradient.jpg)
 
 ## 6- Adding a diagonal black tape to a picture
+
+Before:
+![Maryam-Mirzakhani](Maryam-Mirzakhani.jpg)
+
+
+After:
+![late_maryam_mirzakhani](late_maryam_mirzakhani.jpg)
+

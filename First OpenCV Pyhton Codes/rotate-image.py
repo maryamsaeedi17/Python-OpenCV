@@ -8,12 +8,15 @@ print(image_2.shape)
 
 for i in range(705):
     for j in range(1280//2):
+        temp=image_2[i,j]
         image_2[i,j]=image_2[i,1279-j]
+        image_2[i,1279-j]=temp
 
-for i in range(705//2):
-    temp=image_2[i, 0:1280]
-    image_2[i, 0:1280]=image_2[704-i , 0:1280]
-    image_2[704-i , 0:1280]=temp
+for i in range(705//2+1):
+    for j in range(1280):
+        temp=image_2[i, j]
+        image_2[i, j]=image_2[704-i , j]
+        image_2[704-i , j]=temp
 
 
 cv2.imshow("", image_2)

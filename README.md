@@ -17,24 +17,29 @@ OpenCV for Python
 ## 2- Invert light and dark colors
 
 ### The Woman Picture
-before:
+Before:
 ![1](1.jpg)
 
-after:
+After:
 ![normal-woman-pic](normal-woman-pic.jpg)
 
 ### The Man Picture
-before:
+Before:
 ![2](2.jpg)
 
-after:
+After:
 ![normal-man-pic](normal-man-pic.jpg)
 
 ## 3- Rotate 180 degree
+Before:
+![3](3.jpg)
+
+After:
+![rotate_180_degree](rotate_180_degree.jpg)
 
 
 ## 4- Letter "M"
-
+![letter_M](letter_M.jpg)
 
 ## 5- Gradient
 

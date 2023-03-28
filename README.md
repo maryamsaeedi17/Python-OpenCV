@@ -54,3 +54,11 @@ Before:
 After:
 ![late_maryam_mirzakhani](late_maryam_mirzakhani.jpg)
 
+## 7- Making BATMAN logo using threshold method
+
+Before:
+![bat](bat.jpg)
+
+
+After:
+![batman_logo](batman_logo.jpg)

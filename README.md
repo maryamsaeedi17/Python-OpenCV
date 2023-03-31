@@ -62,3 +62,9 @@ Before:
 
 After:
 ![batman_logo](batman_logo.jpg)
+
+## 8- Making TV noise
+
+- Making Tv noise, putting it inside a TV picture and saving as .MP4 video file.
+
+- Usage: run TV-noise.py and play TV_noise.mp4 

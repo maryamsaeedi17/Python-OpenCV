@@ -12,14 +12,11 @@
 
 ### - Invert light and dark colors
 
-### - Rotate 180 degree
+### - Rotating a picture in 180 degree
 
-### - Letter "M"
-![letter_M](letter_M.jpg)
+### - Makin the letter "M"
 
-### - Gradient
-
-![gradient](gradient.jpg)
+### - Making gradient 
 
 ### - Adding a diagonal black tape to a picture
 

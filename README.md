@@ -1,70 +1,45 @@
-# Python-OpenCV
-OpenCV for Python
+# OpenCV for Python
 
 --------------------------------------
 
-
-
 # Image Proccenig using OpenCV
-
 
 -----------------------------
 
-## 1- Chess board 
+## 1- First OpenCV Python codes: 
 
-![chess_board](chess_board.jpg)
+### - Making chess board
 
-## 2- Invert light and dark colors
+### - Invert light and dark colors
 
-### The Woman Picture
-Before:
-![1](1.jpg)
+### - Rotate 180 degree
 
-After:
-![normal-woman-pic](normal-woman-pic.jpg)
-
-### The Man Picture
-Before:
-![2](2.jpg)
-
-After:
-![normal-man-pic](normal-man-pic.jpg)
-
-## 3- Rotate 180 degree
-Before:
-![3](3.jpg)
-
-After:
-![rotate_180_degree](rotate_180_degree.jpg)
-
-
-## 4- Letter "M"
+### - Letter "M"
 ![letter_M](letter_M.jpg)
 
-## 5- Gradient
+### - Gradient
 
 ![gradient](gradient.jpg)
 
-## 6- Adding a diagonal black tape to a picture
+### - Adding a diagonal black tape to a picture
 
-Before:
-![Maryam-Mirzakhani](Maryam-Mirzakhani.jpg)
-
-
-After:
-![late_maryam_mirzakhani](late_maryam_mirzakhani.jpg)
-
-## 7- Making BATMAN logo using threshold method
-
-Before:
-![bat](bat.jpg)
+## 2- Second OpenCV Python codes: 
 
 
-After:
-![batman_logo](batman_logo.jpg)
+### - Making BATMAN logo using threshold method
 
-## 8- Making TV noise
+
+### - Making TV noise
 
 - Making Tv noise, putting it inside a TV picture and saving as .MP4 video file.
 
 - Usage: run TV-noise.py and play TV_noise.mp4 
+
+## 3- Third OpenCV Python codes: 
+
+### - Drawing a soccer ground
+
+### - Counting the number of cats in a picture
+
+### - Making different face filter
+

@@ -48,7 +48,11 @@ def sticker_on_lip_eye(lips, eyes, image):
             y_g=y
         
 
-    sticker_2 = cv2.resize(glasses_sticker,[w_g,h_g])
+    sticker_2 = cv2.resize(glasses_sticker,[w_g, h_g])
+    for i in range(h_g):
+        for j in range(w_g):
+            if sticker_2[i][j][0] == sticker_2[i][j][1] == sticker_2[i][j][2] ==0:
+                sticker_2[i][j] = image[y_g+i,x_g+j]
     image[y_g:y_g+h_g,x_g:x_g+w_g] = sticker_2
 
 

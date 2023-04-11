@@ -20,5 +20,7 @@ sketch = sketch * 255
 cv2.imshow("", sketch)
 cv2.waitKey()
 
+cv2.imwrite("sketched_photo.jpg", sketch)
+
 
 

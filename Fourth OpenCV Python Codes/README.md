@@ -6,6 +6,7 @@
 ![result](morph_result.jpg)
 
 # 2- Black Hole
+![Black_Hole](Black_Hole.jpg)
 
 
 # 3- Sketched Photo
@@ -34,6 +35,24 @@ After:
 
 
 # 5- Background Estimation
-
+![empty_road](empty_road.jpg)
 
 # 6- Virtual Decoration
+
+## Using these 3 images:
+
+### 1- Room image:
+![room](vd1.jpg)
+
+
+### 2- Floor image:
+![floor](vd2.jpg)
+
+
+### 3- Mask image:
+![mask](vd3.jpg)
+
+I floored the room as you can see below:
+
+![result](floored_room.jpg)
+

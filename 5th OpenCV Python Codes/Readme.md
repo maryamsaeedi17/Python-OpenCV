@@ -1,6 +1,6 @@
 # 1- face for a red apple!
 
-![Output\face_for_red_apple.jpg](Output\face_for_red_apple.jpg)
+![My_face_for_red_apple](Output\My_face_for_red_apple.jpg)
 
 
 # 2- Wrong face!

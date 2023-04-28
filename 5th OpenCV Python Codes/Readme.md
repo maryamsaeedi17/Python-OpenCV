@@ -10,4 +10,7 @@
 ![aligned face](Output\Figure_2.jpeg)
 
 # 4- Big eye and lips filter
+![My exaggerated pic](Output\My_exaggerated_pic.jpg)
+
+
 

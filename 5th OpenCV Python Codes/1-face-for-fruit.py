@@ -36,7 +36,6 @@ for pred in fa.get_landmarks(image, boxes):
     #     cv2.circle(image, tuple(p), 2, color, -1)
     #     cv2.putText(image, str(i), tuple(p), cv2.FONT_HERSHEY_SIMPLEX , 0.3, (0, 0, 255))
     features_landmarks=[]
-#pred=fa.get_landmarks(image, boxes)
 
 lip_landmarks=[52, 55, 56, 53, 59, 58, 61, 68, 67, 71, 63, 64]
 #right_eye_landmarks=[35, 36, 33, 37, 39, 75, 42, 40, 41]

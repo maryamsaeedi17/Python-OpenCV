@@ -23,15 +23,14 @@ def rotate_facial_features(landmarks, image):
 
     result=image*mask
     result_fit=result[y:y+h, x:x+w]
-    #doubled_feature=cv2.resize(result_fit, (0, 0), fx=2, fy=2)
-    doubled_feature=cv2.resize(result_fit, (w*2, h*2))
+    rotated_feature=cv2.flip(result_fit, 0)
 
-    for i in range(h*2):
-        for j in range(w*2):
-            if doubled_feature[i][j][0] == 0 and doubled_feature[i][j][1] == 0 and doubled_feature[i][j][2] == 0:
-                doubled_feature[i][j] = image[int(y-h//2)+i, int(x-w//2)+j]
+    for i in range(h):
+        for j in range(w):
+            if rotated_feature[i][j][0] == 0 and rotated_feature[i][j][1] == 0 and rotated_feature[i][j][2] == 0:
+                rotated_feature[i][j] = image[y+i, x+j]
 
-    image[int(y-h//2):int(y-h//2)+h*2, int(x-w//2):int(x-w//2)+w*2]=doubled_feature
+    image[y:y+h, x:x+w]=rotated_feature
 
     return image
 
@@ -51,12 +50,13 @@ image=rotate_facial_features(lip_landmarks, image)
 image=rotate_facial_features(right_eye_landmarks, image)
 image=rotate_facial_features(left_eye_landmarks, image)
 
+rotated_image=cv2.flip(image, 0)
 
-# cv2.imshow("lip", doubled_lip)
-# cv2.imshow("R", doubled_right_eye)
-# cv2.imshow("L", doubled_left_eye)
+# cv2.imshow("lip", rotated_lip)
+# cv2.imshow("R", rotated_right_eye)
+# cv2.imshow("L", rotated_left_eye)
 cv2.imshow("result", image)
 
 
 cv2.waitKey()
-cv2.imwrite("Output/My_exaggerated_pic.jpg", image)
+cv2.imwrite("Output/My_wrong_pic.jpg", rotated_image)

@@ -1,9 +1,10 @@
 # 1- face for a red apple!
 
-![My_face_for_red_apple](Output\My_face_for_red_apple.jpg)
+![My face for red apple](Output\My_face_for_red_apple.jpg)
 
 
 # 2- Wrong face!
+![My wrong pic](Output\My_wrong_pic.jpg)
 
 
 # 3- Align face

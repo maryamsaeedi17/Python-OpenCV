@@ -17,7 +17,7 @@ for k in range(256):
     color_number.append(k)
 
 #plt.plot(histogram)
-#plt.hist(histogram, 30)
-plt.bar(color_number ,histogram)
+plt.hist(image.ravel(), 256)
+#plt.bar(color_number ,histogram)
 plt.show()
             

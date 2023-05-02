@@ -10,3 +10,37 @@
 ![Figure_2](Output\Figure_2.jpeg)
 
 ![Figure_3](Output\Figure_3.jpeg)
+
+
+
+# 5- Noise reduction
+
+## Input:
+![xray noisy](Input\xray_noisy.png)
+
+## Outputs:
+![xray 3*3](Output\xray_3in3.jpg)
+
+![xray 5*5](Output\xray_5in5.jpg)
+
+![xray 15*15](Output\xray_15in15.jpg)
+
+## Input:
+![board noisy](Input\board_noisy.png)
+
+## Outputs:
+![board 3*3](Output\board_3in3.jpg)
+
+![board 5*5](Output\board_5in5.jpg)
+
+![board 15*15](Output\board_15in15.jpg)
+
+## Input:
+![image noisy](Input\image_noisy.png)
+
+## Outputs:
+![image 3*3](Output\image_3in3.jpg)
+
+![image 5*5](Output\image_5in5.jpg)
+
+![image 15*15](Output\image_15in15.jpg)

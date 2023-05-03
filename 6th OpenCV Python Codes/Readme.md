@@ -29,6 +29,17 @@
 ![spider edge](Output/spider_edge.jpg)
 
 
+# 4- Horizontal and Vertical Edge Detection
+
+## Input:
+![building](Input/building.png)
+
+## Outputs:
+![horizontal edge building](Output/horizontal_edge_building.jpg)
+
+
+![vertical edege building](Output/vertical_edege_building.jpg)
+
 
 # 5- Noise reduction
 

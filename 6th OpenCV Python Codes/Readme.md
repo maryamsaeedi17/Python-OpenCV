@@ -12,6 +12,23 @@
 ![Figure_3](Output/Figure_3.jpeg)
 
 
+# 3- Edge Detection
+
+## Input:
+![lion](Input/lion.png)
+
+## Output:
+![lion edge](Output/lion_edge.jpg)
+
+----------------------------
+
+## Input:
+![spider](Input/spider.jpg)
+
+## Output:
+![spider edge](Output/spider_edge.jpg)
+
+
 
 # 5- Noise reduction
 

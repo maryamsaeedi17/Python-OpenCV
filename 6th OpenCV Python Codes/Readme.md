@@ -18,7 +18,7 @@
 ![flower](Input/flower_input.jpg)
 
 ## Output:
-![flower foreground](Output\focus_on_foreground.jpg)
+![flower foreground](Output/focus_on_foreground.jpg)
 
 # 3- Edge Detection
 

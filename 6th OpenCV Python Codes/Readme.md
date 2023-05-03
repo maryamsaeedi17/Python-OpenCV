@@ -12,6 +12,14 @@
 ![Figure_3](Output/Figure_3.jpeg)
 
 
+# 2- Focus on foreground of an image
+
+## Input:
+![flower](Input/flower_input.jpg)
+
+## Output:
+![flower foreground](Output\focus_on_foreground.jpg)
+
 # 3- Edge Detection
 
 ## Input:

@@ -21,3 +21,47 @@
 ![flower](Output/my2Dfilter.jpg)
 
 
+
+# 3- The Median Filter
+
+## Input:
+![xray](Input/xray_noisy.png)
+
+## Output:
+![xray](Output/xray.jpg)
+----------------------------
+
+## Input:
+![board_noisy](Input/board_noisy.png)
+
+
+## Output:
+![board_noisy](Output/board.jpg)
+-----------------------
+
+## Input:
+![image_noisy](Input/image_noisy.png)
+
+## Output:
+![image](Output/image.jpg)
+--------------------------------
+
+## Input:
+![spaces_balloons_noisy](Input/spaces_balloons_noisy.jpg)
+
+## Output:
+![baloon](Output/baloon.jpg)
+---------------------------------------
+
+## Input:
+![spaces_Medianfilter](Input/spaces_Medianfilter.jpg)
+
+## Output:
+![lady](Output/lady.jpg)
+---------------------------------
+
+## Input:
+![spaces](Input/spaces.jpg)
+
+## Output:
+![character](Output/character.jpg)

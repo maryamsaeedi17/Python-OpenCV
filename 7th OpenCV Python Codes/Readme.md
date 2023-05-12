@@ -20,7 +20,13 @@
 ### 5- My filter:
 ![flower](Output/my2Dfilter.jpg)
 
+# 2- The Average Filter
 
+## Input:
+![squares](Input/squares.jpg)
+
+## Outputs:
+![hidden character](Output/hidden_character.jpg)
 
 # 3- The Median Filter
 

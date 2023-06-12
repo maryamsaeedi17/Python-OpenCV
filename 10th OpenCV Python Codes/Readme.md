@@ -1,12 +1,12 @@
-#1- Removing the background of an image:
-##Input:
+# 1- Removing the background of an image:
+## Input:
 ![bgr_logo](Input/microsoft_logo.jpg)
 
-##Output:
+## Output:
 ![png_logo](Output/microsoft_logo.png)
 
-#2- Color recognation:
-##Outputs:
+# 2- Color recognation:
+## Outputs:
 
 ![white](Output/white.jpg)
 
@@ -18,9 +18,9 @@
 
 ![black](Output/black.jpg)
 
-#3- Pose landmarks:
-##Input:
+# 3- Pose landmarks:
+## Input:
 ![my_pic](Input/my_pic.jpg)
 
-##Output:
+## Output:
 ![landmarks_on_my_pic](Output/landmarks_on_my_pic.jpg)
